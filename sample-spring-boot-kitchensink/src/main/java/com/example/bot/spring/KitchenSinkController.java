@@ -238,6 +238,9 @@ public class KitchenSinkController {
 
         log.info("Got text message from {}: {}", replyToken, text);
         switch (text) {
+        case "Git":
+        	 this.replyText(replyToken, "hub");
+        	break;
             case "profile": {
                 String userId = event.getSource().getUserId();
                 if (userId != null) {
