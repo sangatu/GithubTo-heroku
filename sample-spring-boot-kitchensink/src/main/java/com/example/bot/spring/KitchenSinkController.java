@@ -382,30 +382,30 @@ public class KitchenSinkController {
             }
             case "imagemap":
                 this.reply(replyToken, new ImagemapMessage(
-                        createUri("/static/rich"),
+                        createUri("/static/Products/imagemap2.png"),
                         "This is alt text",
                         new ImagemapBaseSize(1040, 1040),
                         Arrays.asList(
                                 new URIImagemapAction(
-                                        "https://store.line.me/family/manga/en",
+                                        "http://www.ionkesho.jp/products/category/cream.html",
                                         new ImagemapArea(
                                                 0, 0, 520, 520
                                         )
                                 ),
                                 new URIImagemapAction(
-                                        "https://store.line.me/family/music/en",
+                                        "http://www.ionkesho.jp/products/category/bodycare.html",
                                         new ImagemapArea(
                                                 520, 0, 520, 520
                                         )
                                 ),
                                 new URIImagemapAction(
-                                        "https://store.line.me/family/play/en",
+                                        "http://www.ionkesho.jp/products/category/lotion.html",
                                         new ImagemapArea(
                                                 0, 520, 520, 520
                                         )
                                 ),
                                 new MessageImagemapAction(
-                                        "URANAI!",
+                                        "http://www.ionkesho.jp/products/category/liquidfoundation.html",
                                         new ImagemapArea(
                                                 520, 520, 520, 520
                                         )
